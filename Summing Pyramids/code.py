@@ -25,9 +25,9 @@ def main():
         LastArray = pascal_triangle[-1]
         pascal_triangle = generate_pascal_triangle(LastArray)
         triangle_Sum = triangle_sum(pascal_triangle)
-        # print("Pascal's Triangle:", pascal_triangle)
-        # print("Sum of Pascal's Triangle:", triangle_Sum)
-        # print("***************")
+        print("Pascal's Triangle:", pascal_triangle)
+        print("Sum of Pascal's Triangle:", triangle_Sum)
+        print("***************")
 
     for i in range(len(triangle_Sum)):
         if triangle_Sum[i] >= num:
